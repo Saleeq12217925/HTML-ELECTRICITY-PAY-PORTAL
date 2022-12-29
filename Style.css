@@ -1,0 +1,156 @@
+/*   header styling  */
+#header
+{
+  display: flex;
+  align-items: ;
+  justify-content: space-between;
+  height: 105px
+  width: 100vw;
+  top: 0px;
+  position: sticky;
+  z-index: 5;
+
+}
+#header::before{
+    content: "";
+    background-color: rgb(20, 26, 26);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+    border-radius: 20px;
+     
+}
+#header ul{
+    float: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 40px;
+}
+#header ul li{
+ list-style: none;
+ display: inline-block;
+ padding-right: 100px;
+}
+#header ul li a{
+ text-decoration: none;
+ padding: 12px 18px;
+ margin: 6px 15px;
+ font-family: 'Sen', sans-serif;
+ font-size: 1.32rem;
+ color: white;
+ border-radius: 16px;
+ display: inline-block;
+}
+#header ul li a:hover
+{
+    background-color: yellow;
+    color: black;
+    transform : scale(1.18);
+    transition: all 0.4s;
+}
+#grid{
+    margin: 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 10fr;
+    grid-column-gap: 10px;
+}
+.grid1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 119, 255);
+    padding: 5px;
+    height: 55vh;
+    width: 55vh;
+    background-color: rgb(255, 153, 0);
+    border-radius: 25px;
+    box-shadow: 3px 3px rgba(185, 185, 185, 0.781);
+}
+.grid2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(0, 119, 255);
+    background-color: rgb(255, 204, 0);
+    border-radius: 25px;
+    box-shadow: 3px 3px rgba(185, 185, 185, 0.781);
+    padding: 5px;
+    height: 115vh;
+    width: 85vh;
+}
+#head
+{
+	color: yellow;
+}
+#a
+{
+	color:yellow;
+}
+#box
+{
+	border-radius: 18px;
+    padding: 20px; 
+    width: 200px;
+    height: 10px; 
+}
+#log
+{
+	border-radius: 18px;
+	width: 120px;
+    height: 50px;
+}
+.list
+{
+    font-size: 25px;
+
+}
+#image
+{
+    height: 70vh;
+    width: 120vh;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.box2
+{
+    position: absolute;
+    right: 35%;
+    border: 1px solid black;
+    max-width: 500px;
+    padding: 14px;
+    background-color:rgb(255, 153, 204);
+    border-radius: 20px;
+}
+#bg1
+{
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+}
+#button
+{
+    background-color: #ffccff;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+#bg2
+{
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:hover
+{
+    background-color: red;
+    color: black;
+    transform : scale(1.18);
+    transition: all 0.4s;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
